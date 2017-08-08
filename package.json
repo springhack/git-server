@@ -1,0 +1,18 @@
+{
+  "name": "git-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "P=`pwd`; for repo in `ls ..`;do cd ../$repo; git config receive.denyCurrentBranch ignore >/dev/zero 2>&1; cd $P; done"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "git-http-backend": "^1.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
