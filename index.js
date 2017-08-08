@@ -1,6 +1,7 @@
+#!/usr/bin/env node
 /**
         Author: SpringHack - springhack@live.cn
-        Last modified: 2017-08-08 22:32:12
+        Last modified: 2017-08-08 22:34:27
         Filename: index.js
         Description: Created by SpringHack using vim automatically.
 **/
